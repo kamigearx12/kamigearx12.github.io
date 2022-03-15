@@ -1,0 +1,38 @@
+#zagolovok{
+	margin-left: 350px;
+	margin-top: 100px;
+	color: #FFFFFF;
+}
+#start{
+	margin-left: 600px;
+	font-size: 50px;
+	color: #F2B204;
+}
+#all{
+	background-color: #7B76FF;
+}
+#otvet{
+	margin-left: 600px;
+	color: #414141;
+	font-size: 25px;
+}
+#voprosone{
+	margin-left: 600px;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+#voprostwo{
+	margin-left: 500px;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+#voprosthree{
+	margin-left: 500px;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
+#voprosfour{
+	margin-left: 500px;
+	margin-top: 50px;
+	color: #FFFFFF;
+}
