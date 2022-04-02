@@ -1,1 +1,1 @@
-# kamigearx12.github.io
+# 404 Not Found
