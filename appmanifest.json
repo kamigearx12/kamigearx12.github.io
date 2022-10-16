@@ -1,6 +1,6 @@
 {
-	"name": "New project",
-	"short_name": "New project",
+	"name": "stonad",
+	"short_name": "stonad",
 	"description": "what",
 	"start_url": "index.html",
 	"display": "fullscreen",
