@@ -3805,7 +3805,9 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.SetVisible,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.Sprite.Acts.StartAnim,
-		C3.Plugins.Text.Acts.Destroy
+		C3.Plugins.Text.Acts.Destroy,
+		C3.Plugins.System.Acts.SetVar,
+		C3.Plugins.Mouse.Cnds.OnClick
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3832,7 +3834,8 @@ self.C3_JsPropNameTable = [
 	{Спрайт4: 0},
 	{Спрайт5: 0},
 	{life: 0},
-	{score: 0}
+	{score: 0},
+	{pause: 0}
 ];
 }
 
