@@ -3800,7 +3800,12 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Mouse.Cnds.IsOverObject,
 		C3.Plugins.Mouse.Cnds.OnObjectClicked,
 		C3.Plugins.Touch.Cnds.IsTouchingObject,
-		C3.Plugins.Touch.Cnds.OnTapGestureObject
+		C3.Plugins.Touch.Cnds.OnTapGestureObject,
+		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Sprite.Acts.SetVisible,
+		C3.Plugins.Sprite.Acts.Destroy,
+		C3.Plugins.Sprite.Acts.StartAnim,
+		C3.Plugins.Text.Acts.Destroy
 	];
 };
 self.C3_JsPropNameTable = [
@@ -3824,6 +3829,8 @@ self.C3_JsPropNameTable = [
 	{Спрайт3: 0},
 	{Мишка: 0},
 	{Touch: 0},
+	{Спрайт4: 0},
+	{Спрайт5: 0},
 	{life: 0},
 	{score: 0}
 ];
