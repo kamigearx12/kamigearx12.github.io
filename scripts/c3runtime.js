@@ -3833,6 +3833,8 @@ self.C3_JsPropNameTable = [
 	{Touch: 0},
 	{Спрайт4: 0},
 	{Спрайт5: 0},
+	{Куля: 0},
+	{Спрайт6: 0},
 	{life: 0},
 	{score: 0},
 	{pause: 0}
@@ -3951,7 +3953,16 @@ self.C3_ExpressionFuncs = [
 			const f0 = p._GetNode(0).GetBoundMethod();
 			return () => f0(735, 750, 811, 1040);
 		},
-		() => 10
+		() => 10,
+		() => -55,
+		p => {
+			const f0 = p._GetNode(0).GetBoundMethod();
+			return () => f0(1674, 2150);
+		},
+		() => 50,
+		() => 49,
+		() => 3,
+		() => 5
 ];
 
 
