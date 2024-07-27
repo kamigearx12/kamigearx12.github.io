@@ -30,7 +30,7 @@ def main(page: ft.Page):
 
     titlebar = [
         ft.Container(
-            content=ft.Row([ft.Switch(thumb_icon=ft.icons.DARK_MODE,on_change=theme_changed, active_color='white', active_track_color='white', thumb_color='black')], spacing=1, scale=1.5, alignment=ft.MainAxisAlignment.CENTER),
+            content=ft.Row([ft.Switch(thumb_icon=ft.icons.DARK_MODE_OUTLINED if page.theme_mode == ft.ThemeMode.LIGHT else ft.icons.DARK_MODE,on_change=theme_changed, active_color='black', active_track_color='white' if page.theme_mode == ft.ThemeMode.DARK else 'black', thumb_color='white' if page.theme_mode == ft.ThemeMode.LIGHT else "black", value=True if page.theme_mode == ft.ThemeMode.DARK else False )], spacing=1, scale=1.5, alignment=ft.MainAxisAlignment.CENTER),
             border=ft.border.all(3, 'black'),
             padding=13, #type: ignore
             expand=False,
